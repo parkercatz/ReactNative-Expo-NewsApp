@@ -3,7 +3,7 @@ import { StyleSheet, Text, View, Image, TouchableOpacity } from 'react-native';
 
 const ListItem = ({ imageUrl, title, author, onPress }) => {
   return (
-    <TouchableOpacity style={styles.itemContainer}>
+    <TouchableOpacity style={styles.itemContainer} onPress={onPress}>
       <View style={styles.leftContainer}>
         {/* imageUrlがUndefindだった場合、!!imageUrlがfalseになりImageが表示されない */}
         {/* !!imageUrl = trueかfalseを判定する */}
