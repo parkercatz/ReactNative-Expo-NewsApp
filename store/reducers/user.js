@@ -1,5 +1,3 @@
-import { addClip } from '../actions/user';
-
 const initialState = {
   clips: [],
 };
