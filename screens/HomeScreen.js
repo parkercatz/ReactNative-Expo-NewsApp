@@ -3,7 +3,6 @@ import { StyleSheet, FlatList, SafeAreaView } from 'react-native';
 import ListItem from '../components/ListItem';
 import Constants from 'expo-constants';
 import axios from 'axios';
-import ArticleScreen from './ArticleScreen';
 
 const URL = `http://newsapi.org/v2/top-headlines?country=jp&apiKey=${Constants.manifest.extra.newsApiKey}`;
 
